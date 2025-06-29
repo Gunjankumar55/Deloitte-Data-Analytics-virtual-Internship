@@ -34,8 +34,7 @@ Each factory had 9 types of machines, sending messages every 10 minutes.
 
 ## 🛠️ Steps Taken
 
-1. **Imported JSON data** into Tableau.
-2. Created a **calculated field** called `Unhealthy`:
-   ```tableau
-   IF [status] = "unhealthy" THEN 10 ELSE 0 END
+- Imported JSON telemetry data into Tableau.
+- Created calculated fields to measure downtime.
+- Built dashboards to visualize downtime by factory and device type.
 ---
